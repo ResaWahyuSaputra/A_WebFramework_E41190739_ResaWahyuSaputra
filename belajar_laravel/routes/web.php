@@ -19,7 +19,7 @@ use App\Http\Controllers\ManagemenUserController;
   //  return view('welcome');
 //});
 Route::get('/user', [ManagementUserController::class,'index']);
-//Route::get('/create', [ManagementUserController::class,'create']);
-//Route::get('/user/1/edit', [ManagementUserController::class,'edit']);
+Route::get('/create', [ManagementUserController::class,'create']);
+Route::get('/user/1/edit', [ManagementUserController::class,'edit']);
 
 ?>
